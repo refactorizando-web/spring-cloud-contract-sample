@@ -1,0 +1,44 @@
+= Spring Cloud Contract example
+{localdatetime}
+:toc:
+:doctype: book
+:docinfo:
+
+== Introduction
+
+This is a simple example about how to use Spring Cloud Contract with a consumer and a producer.
+
+You can take a look into the article in https://refactorizando.com/introduccion-y-ejemplo-a-spring-cloud-contractintroduccion-ejemplo-spring-cloud-contract
+
+
+== How does it work?
+
+
+The idea behind Spring Cloud Contract is to verify the contract and help us develop
+Consumer Driven Contracts (CDC). If the producer changes or breaches the contract, Spring Cloud Contract will be aware of it.
+Then the test will fail.
+
+This example has two different projects, the first is the producer, and the second is the consumer or client.
+
+To verify the contract you must perform in the producer project
+
+    mv clean install
+
+With the following command, you will generate a * -stub.jar. This check will be used by the consumer to verify the contract.
+if something has changed, client service will fail.
+
+== How does it run?
+
+Both are Spring Boot projects so if you want to run you can run the next command:
+
+    mvn spring-boot:run
+
+To verify contracts first is generate a stub in producer target folder, to make this run the next command:
+
+    mvn clean install
+
+after that you can run test in your consumer project, you will see in your test a call to the stub generated. So run the
+next command in your consumer project:
+
+    mvn clean install or mvn test
+

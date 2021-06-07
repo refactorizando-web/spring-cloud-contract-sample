@@ -1,0 +1,1 @@
+package com.refactorizando.samples.springcloudcontract.consumer;
