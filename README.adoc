@@ -8,7 +8,7 @@
 
 This is a simple example about how to use Spring Cloud Contract with a consumer and a producer.
 
-You can take a look into the article in https://refactorizando.com/introduccion-y-ejemplo-a-spring-cloud-contractintroduccion-ejemplo-spring-cloud-contract
+You can take a look into the article in https://refactorizando.com/introduccion-spring-cloud-contract
 
 
 == How does it work?
