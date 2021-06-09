@@ -30,7 +30,7 @@ In addition, you will have generated a Java test of your contracts that you can 
 
 Furthermore, if you want to take a look into the folder test you can find a way of load data and generate
 a schema for your tests. if you want more information about loading data with Spring Boot take a look
-into https://refactorizando.com/carga-inicial-spring-boot
+into https://refactorizando.com/carga-inicial-datos-spring-boot
 
 == How does it run?
 
