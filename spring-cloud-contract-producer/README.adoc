@@ -28,6 +28,10 @@ With the following command, you will generate a * -stub.jar.
 
 In addition, you will have generated a Java test of your contracts that you can find in the resources folder.
 
+Furthermore, if you want to take a look into the folder test you can find a way of load data and generate
+a schema for your tests. if you want more information about loading data with Spring Boot take a look
+into https://refactorizando.com/carga-inicial-spring-boot
+
 == How does it run?
 
 You can run the next command with maven:
